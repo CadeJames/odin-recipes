@@ -1,0 +1,55 @@
+* {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    text-decoration:none;
+    padding: 0px 30px 0px 30px;
+}
+
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size: 50px;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size: 23px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: black;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size: 16px;
+    font-style: normal; 
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* ---- HOME ---- */
+
+.homebody {
+    text-align: center;
+}
